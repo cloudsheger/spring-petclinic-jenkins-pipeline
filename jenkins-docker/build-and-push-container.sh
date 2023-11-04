@@ -1,2 +1,3 @@
-docker build -t tyitzhak/jenkins-docker:latest .
-docker push tyitzhak/jenkins-docker:latest
+#!/bin/bash
+docker build -t cloudsheger/jenkins-docker-latest:latest .
+docker push cloudsheger/jenkins-docker-latest:latest

@@ -1,3 +1,4 @@
+#!/bin/bash
 docker stop jenkins-docker
 docker rm jenkins-docker
 
