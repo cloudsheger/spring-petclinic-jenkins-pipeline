@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 USER root
-ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
+#ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 RUN apt-get update && \
 apt-get -y install apt-transport-https \
     ca-certificates \
